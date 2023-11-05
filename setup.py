@@ -1,6 +1,8 @@
+#it is automatically find the packages in the entire machine learning directory we are actually created
 from setuptools import find_packages, setup
 from typing import List
 
+#This function returns a list 
 HYPEN_E_DOT='-e .'
 def get_requirements(file_path:str)->List[str]:
     '''
